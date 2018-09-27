@@ -26,6 +26,6 @@ class EntryPoint
                 System.Console.WriteLine("O "+(i+1)+"º radio button não está marcado!");
             }
         }
-        driver.Close();
+        driver.Quit();
     }
 }
