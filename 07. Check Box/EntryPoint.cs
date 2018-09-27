@@ -9,20 +9,18 @@ class EntryPoint
     static void Main()
     {
         string url = "http://testing.todvachev.com/special-elements/check-button-test-3/";
-        string option = "3";
+        string option = "1";
         driver.Navigate().GoToUrl(url);
 
         checkBox = driver.FindElement(By.CssSelector("#post-33 > div > p:nth-child(8) > input[type=\"checkbox\"]:nth-child("+option+")"));
-                   
-        if (checkBox.GetAttribute("checked") == "true")
-        {
-            System.Console.WriteLine("O checkbox está marcado!");
-        }
-        else
-        {
-            System.Console.WriteLine("O checkbox não está marcado!");
 
-        }
+        System.Console.WriteLine(checkBox.GetAttribute("value"));
+
+        option = "3";
+
+        checkBox = driver.FindElement(By.CssSelector("#post-33 > div > p:nth-child(8) > input[type=\"checkbox\"]:nth-child(" + option + ")"));
+
+        System.Console.WriteLine(checkBox.GetAttribute("value"));
 
         driver.Quit();
     }
