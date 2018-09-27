@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Radio Button", "08. Rad
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. Drop Down Menu", "09. Drop Down Menu\09. Drop Down Menu.csproj", "{B27CD31D-3C63-4DEF-AB86-AA3364C3D417}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. Aler Box", "10. Aler Box\10. Aler Box.csproj", "{FDBAD3AF-94FF-4CA7-BF79-AFA625118F6A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{B27CD31D-3C63-4DEF-AB86-AA3364C3D417}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B27CD31D-3C63-4DEF-AB86-AA3364C3D417}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B27CD31D-3C63-4DEF-AB86-AA3364C3D417}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDBAD3AF-94FF-4CA7-BF79-AFA625118F6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDBAD3AF-94FF-4CA7-BF79-AFA625118F6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDBAD3AF-94FF-4CA7-BF79-AFA625118F6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDBAD3AF-94FF-4CA7-BF79-AFA625118F6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
