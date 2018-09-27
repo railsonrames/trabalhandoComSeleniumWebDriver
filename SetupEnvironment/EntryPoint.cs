@@ -1,6 +1,6 @@
+using System;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
-using System.Threading;
 
 class EntryPoint
 {
@@ -8,10 +8,31 @@ class EntryPoint
     {
         IWebDriver driver = new ChromeDriver();
 
-        driver.Navigate().GoToUrl("http://testing.todvachev.com/");
+        driver.Navigate().GoToUrl("http://testing.todvachev.com/selectors/name/");
 
-        Thread.Sleep(3000);
+        IWebElement element = driver.FindElement(By.Name("myName"));
+
+        if (element.Displayed)
+        {
+            MensagemVerde("Sucesso, eu posso ver o elemento!");
+        }
+        else
+        {
+            MensagemVermelha("Falhou, alguma bicheira aconteceu!");
+        }
 
         driver.Quit();
+    }
+
+    private static void MensagemVermelha(string mensagem)
+    {
+        Console.BackgroundColor = ConsoleColor.Red;
+        Console.WriteLine(mensagem);
+    }
+
+    private static void MensagemVerde(string mensagem)
+    {
+        Console.ForegroundColor = ConsoleColor.Green;
+        Console.WriteLine(mensagem);
     }
 }
