@@ -6,19 +6,16 @@ class EntryPoint
 {
     static void Main()
     {
-        string url = "http://testing.todvachev.com/selectors/id/";
-        string ID = "testImage";
+        string url = "http://testing.todvachev.com/selectors/class-name/";
+        string className = "testClass";
 
         IWebDriver driver = new ChromeDriver();
 
         driver.Navigate().GoToUrl(url);
 
-        IWebElement elemento = driver.FindElement(By.Id(ID));
+        IWebElement elemento = driver.FindElement(By.ClassName(className));
 
-        if (elemento.Displayed)
-            MensagemVerde("Sussa, vi o elemento!");
-        else
-            MensagemVermelha("Alguma bixeira happens!");
+        Console.WriteLine(elemento.Text);
 
         driver.Quit();
     }
@@ -34,5 +31,5 @@ class EntryPoint
         Console.ForegroundColor = ConsoleColor.Green;
         Console.WriteLine(mensagem);
     }
-
 }
+
