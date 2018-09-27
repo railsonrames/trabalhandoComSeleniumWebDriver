@@ -1,5 +1,6 @@
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using System.Threading;
 
 class EntryPoint
 {
@@ -16,11 +17,9 @@ class EntryPoint
 
         System.Console.WriteLine(checkBox.GetAttribute("value"));
 
-        option = "3";
+        checkBox.Click();
 
-        checkBox = driver.FindElement(By.CssSelector("#post-33 > div > p:nth-child(8) > input[type=\"checkbox\"]:nth-child(" + option + ")"));
-
-        System.Console.WriteLine(checkBox.GetAttribute("value"));
+        Thread.Sleep(3000);
 
         driver.Quit();
     }
