@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SetupEnvironment", "SetupEnvironment\SetupEnvironment.csproj", "{6C0EFCBF-26B8-41A8-806E-622D0F15A029}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. NameSelector", "SetupEnvironment\01. NameSelector.csproj", "{6C0EFCBF-26B8-41A8-806E-622D0F15A029}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
