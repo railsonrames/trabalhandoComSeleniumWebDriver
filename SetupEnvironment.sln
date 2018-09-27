@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Class Name", "03. Class
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. cssPath e xPath", "04. cssPath e xPath\04. cssPath e xPath.csproj", "{D498DE42-2860-4681-BB60-0636F7316A2E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. NoSuchElementException", "05. NoSuchElementException\05. NoSuchElementException.csproj", "{5857D627-124A-4101-972B-63DDD31924E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{D498DE42-2860-4681-BB60-0636F7316A2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D498DE42-2860-4681-BB60-0636F7316A2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D498DE42-2860-4681-BB60-0636F7316A2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5857D627-124A-4101-972B-63DDD31924E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5857D627-124A-4101-972B-63DDD31924E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5857D627-124A-4101-972B-63DDD31924E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5857D627-124A-4101-972B-63DDD31924E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
